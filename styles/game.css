@@ -13,13 +13,30 @@ div
 table tr td 
 {
 	width: 960px;
-	border: solid black 3px;
+	border: solid #2D882D 3px;
 	border-radius: 5px;
+}
+
+button
+{
+	margin: 5px 0px 8px 0px;
+}
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #show
 {
 	height: 800px;
+}
+
+#stat
+{
+	width: 300px;
+	height: 200px;
 }
 /*Style*/
 
@@ -27,3 +44,14 @@ div
 {
 	text-align: center;
 }
+
+body
+{
+	background-color: #116611;
+}
+
+td
+{
+	background-color: #55AA55;
+}
+
