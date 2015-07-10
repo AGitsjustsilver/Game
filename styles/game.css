@@ -2,3 +2,28 @@
 	Game Styling 
 	by Alessandro Guaresti & Alexis Greene
 */
+
+/* Structure */
+div 
+{
+	margin: 0 auto;
+	width: 960px;
+}
+
+table tr td 
+{
+	width: 960px;
+	border: solid black 3px;
+	border-radius: 5px;
+}
+
+#show
+{
+	height: 800px;
+}
+/*Style*/
+
+div
+{
+	text-align: center;
+}
