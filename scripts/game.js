@@ -32,8 +32,16 @@ function Arc() {
 
 function Battle() {
     // going to need damage, health, attack strat.
-    function E_Attack() {
-        var x = Math.random();
+    var luck = Math.random();
+    function E_Attack(luck) {
+        if(luck){
+            var Edmg = Edmg * 1.25;
+            
+        }
+        
+    }
+    function E_Defence(luck) {
+        
         
     }
 }
