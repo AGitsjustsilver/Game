@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Battle!</title>
+		<link rel="stylesheet" type="text/css" href="\styles\game.css">
+	</head>
+
+	<body onload="Battle()">
+		<script type="text/javascript" src="\scripts\game.js"></script>
+		<div>
+			<table>
+				<tr>
+					<td colspan="2">
+						<p style="font-size: 100px; margin: 200px 0px;">Picture</p>
+					</td>
+				</tr>
+				<tr>
+					<td id="stat">
+						<p>Status:</p>
+						<br>
+						<p>Your health: </p>
+						<p id="health"></p>
+						<br>
+						<p>Enemy health: </p>
+						<p id="Ehealth"></p>
+					</td>
+					<td>
+						<p>Fight!</p>
+						<br>
+						<button onclick="Attack();">Hit</button>
+						<button onclick="Defend();">Defend</button>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</body>
+
+</html>

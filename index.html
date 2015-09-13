@@ -4,15 +4,32 @@
 	<head>
 		<meta charset="utf8">
 		<link rel="stylesheet" type="text/css" href="\styles\game.css">
-		<script type="text/javascript" href="\scripts\game.js"></script>
 		<title> Game </title>
 		<link rel="icon" type="image/x-png" href="\images\Shark.gif">
 	</head>
 
 	<body>
-
-		<p>Hello World!</p>
-
+		<script type="text/javascript" src="\scripts\game.js"></script>
+		<div>
+			<table>
+				<tr>
+					<td id="show">
+						<!-- Main img -->
+						<p style="font-size: 200px;">Picture</p>
+					</td>
+				</tr>
+				<tr>
+					<td id="tray">
+						<p>Choose your class</p>
+						<button onclick="Kni()">Knight</button>
+						<button onclick="Mag()">Mage</button>
+						<button onclick="Arc()">Archer</button>
+						<br>
+						<button disabled id="Start" onclick="Begin()">Start</button>
+					</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 
 </html>
